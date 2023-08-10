@@ -1,0 +1,64 @@
+@import './base.css';
+
+
+@font-face {
+  font-family: IRANSans;
+  src: url('assets/font/IRANSansWeb(FaNum).woff2') format('woff2'),
+    url('assets/font/IRANSans(FaNum)_Medium.ttf') format('truetype'),
+    url('assets/font/IRANSans(FaNum)_Bold.ttf') format('truetype'),
+    url('assets/font/IRANSans(FaNum)_Light.ttf') format('truetype'),
+    /* Super Modern Browsers */
+    url('assets/font/IRANSansWeb(FaNum).woff') format('woff'),
+    /* Pretty Modern Browsers */
+    url('assets/font/IRANSansWeb(FaNum).ttf') format('truetype');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: IRANSansMed;
+  src: url('assets/font/IRANSans(FaNum)_Medium.ttf') format('truetype')
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: IRANSans;
+  font-weight: normal;
+  height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+.align-absolute {
+  position: absolute;
+  bottom: 35px;
+  right: 36px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    margin: 0;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+  }
+}

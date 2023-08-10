@@ -1,0 +1,106 @@
+.form-box {
+  padding: 30px 40px;
+  background: #e3e3e3;
+  border-radius: 8px;
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-red{
+  color: red !important;
+}
+.mt-0 {
+  margin-top: 0
+}
+.mt-2{
+  margin-top: 14px;
+}
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input::placeholder {
+  font-family: IRANSans;
+}
+
+.submit-button {
+  font-size: 14px;
+  font-family: 'IRANSans';
+  border: 0;
+  padding: 5px 20px;
+  cursor: pointer;
+  display: flex;
+}
+
+.btn-link {
+  border: unset;
+  background: unset;
+  font-family: 'IRANSans';
+  font-size: 12px;
+  color: #5e5e5e;
+  cursor: pointer;
+  transition: all .2s;
+  text-decoration: unset;
+}
+
+.btn-link:hover{
+  color: #2e2e2e;
+  text-decoration: underline;
+}
+
+
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+
+.alert-error {
+  color: red;
+  direction: rtl;
+  font-size: 13px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-right {
+  text-align: right;
+}
